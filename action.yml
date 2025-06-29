@@ -10,6 +10,6 @@ inputs:
 outputs:
   result:
     description: 'output of the sum of the 2 numbers'
-run: 
+runs: 
   using: 'node20'
   main: 'dist/index.js'
