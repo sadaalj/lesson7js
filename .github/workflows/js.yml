@@ -1,4 +1,4 @@
-name: jsaction
+name: jsAction
 
 on:
   push:
@@ -10,8 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./
-        id: jsaction
+        id: jsAction
         with:
           number1: 5
           number2: 10
-      - run: echo ${{ steps.jsaction.outputs.result }}
+      - run: echo ${{ steps.jsAction.outputs.result }}
