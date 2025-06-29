@@ -1,0 +1,17 @@
+name: jsaction
+
+on:
+  push:
+
+jobs:
+  test-js-action:
+    name: job to test our js action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - used: ./
+        id: jsaction
+        with:
+          number1: 5
+          number2: 10
+      - run: echo ${{ steps.jsaction.outputs.result }}
