@@ -1,0 +1,25 @@
+{
+  "name": "lesson7js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadaalj/lesson7js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sadaalj/lesson7js/issues"
+  },
+  "homepage": "https://github.com/sadaalj/lesson7js#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1",
+    "@vercel/ncc": "^0.38.3"
+  }
+}
